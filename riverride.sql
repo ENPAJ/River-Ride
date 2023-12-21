@@ -7,6 +7,7 @@ CREATE TABLE Client (
   mot_de_passe VARCHAR(255) NOT NULL
 );
 
+
 -- Création de la table Point d'Arrêt
 CREATE TABLE PointArret (
   point_arret_id INT AUTO_INCREMENT PRIMARY KEY,
