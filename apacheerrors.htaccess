@@ -1,0 +1,6 @@
+# Activer la gestion des erreurs personnalisées
+ErrorDocument 400 /errors/error_400.php
+ErrorDocument 401 /errors/error_401.php
+ErrorDocument 403 /errors/error_403.php
+ErrorDocument 404 /errors/error_404.php
+ErrorDocument 500 /errors/error_500.php
