@@ -22,7 +22,7 @@ River Ride permet aux voyageurs de découvrir la Loire, de gérer leur itinérai
 
 ## 🚀 Documentation
 
-Vous trouverez [ici](https://enpaj.github.io/River-Ride/) une documentation du projet River-Ride ! 
+Vous trouverez [ici](https://enpaj.github.io/River-Ride/) une documentation du projet River-Ride !
 
 ## ⚙️ Installation
 
@@ -47,11 +47,11 @@ Pour utiliser ce projet, suivez ces étapes si vous souhaitez mettre en place un
    - Accédez à l'onglet "phpMyAdmin" pour gérer vos bases de données MySQL.
    - Cliquez sur *New* pour créer une nouvelle base de données.
    - Puis sur *Import* pour importer une base de données.
-   - Sélectionez le fichier nommé *riverride.sql*. 
+   - Sélectionez le fichier nommé *riverride.sql*.
 
 Félicitations ! Vous avez maintenant un serveur MAMP opérationnel sur votre machine Windows/macOS, ainsi qu'une base de données fonctionnelle. Il est temps de donner vie à votre application ! N'hésitez pas à tester et explorer toutes les fonctionnalités.
 
-Voici les étapes à suivre pour un serveur Apache sur une machine Linux: 
+Voici les étapes à suivre pour un serveur Apache sur une machine Linux:
 
 Pour cloner un projet Git dans le répertoire `/var/www/html/` sur un serveur Apache et importer une base de données, suivez ces étapes :
 
@@ -62,8 +62,8 @@ Pour cloner un projet Git dans le répertoire `/var/www/html/` sur un serveur Ap
    - Utilisez la commande `cd /var/www/html/` pour accéder au répertoire HTML.
 
 3. **Clonage du projet :**
-   - Utilisez la commande `git clone ` pour cloner le projet Git dans le répertoire actuel.
-     ```
+   - Utilisez la commande `git clone` pour cloner le projet Git dans le répertoire actuel.
+     ```bash
      git clone https://github.com/ENPAJ/River-Ride.git
      ```
 
@@ -72,7 +72,7 @@ Pour cloner un projet Git dans le répertoire `/var/www/html/` sur un serveur Ap
 
 5. **Redémarrage du serveur Apache :**
    - Si vous avez eu besoin de modifier la configuration, redémarrez Apache pour appliquer les changements.
-     ```
+     ```bash
      sudo service apache2 restart
      ```
 
@@ -80,25 +80,25 @@ Pour cloner un projet Git dans le répertoire `/var/www/html/` sur un serveur Ap
 
 1. **Accès à MySQL :**
    - Ouvrez un terminal et connectez-vous à MySQL en utilisant la commande :
-     ```
+     ```sql
      mysql -u [votre_nom_utilisateur] -p
      ```
 
 2. **Création de la base de données :**
    - Créez une nouvelle base de données (si elle n'existe pas déjà) :
-     ```
+     ```sql
      CREATE DATABASE riverride;
      ```
 
 3. **Sélection de la base de données :**
    - Sélectionnez la base de données nouvellement créée :
-     ```
+     ```sql
      USE riverride;
      ```
 
 4. **Importation de la base de données :**
    - Utilisez la commande `mysql` pour importer le fichier SQL dans la base de données :
-     ```
+     ```sql
      mysql -u [votre_nom_utilisateur] -p riverride < /var/www/html/River-Ride/riverride.sql
      ```
 
@@ -109,16 +109,17 @@ Félicitations ! Vous avez désormais un serveur Apache pleinement fonctionnel s
 
 <!-- Ajoutez d'autres étapes d'installation si nécessaire -->
 
-## 🗃️Connexion à la base de données 
-   C'est le fichier ```bd.php``` à la racine de River-Ride qui gère la connexion à la base de données. 
+## 🗃️Connexion à la base de données
+   C'est le fichier ```bd.php``` à la racine de River-Ride qui gère la connexion à la base de données.
    N'oubliez pas de modifier les identifiants pour pouvoir vous connecter à votre base de données pour pouvoir effectuer vos tests et de les remettre à leurs valeurs initiales avant toute pull request.
 
 ## 💻Environnement de Développement Intégré
-Il ne vous reste plus qu'à choisir l'IDE qui correspond le mieux à votre style de développement. Que vous optiez pour les fonctionnalités puissantes d'IDE populaires ou que vous préfériez quelque chose de plus léger, comme Geany - un excellent choix open source, il est essentiel que vous vous sentiez à l'aise et productif dans votre environnement de codage. Il est temps de vous lancer, et n'oubliez pas : happy coding! 😉🚀
+Il ne vous reste plus qu'à choisir l'IDE qui correspond le mieux à votre style de développement. 
+Que vous optiez pour les fonctionnalités puissantes d'IDE populaires ou que vous préfériez quelque chose de plus léger, comme Geany - un excellent choix open source, il est essentiel que vous vous sentiez à l'aise et productif dans votre environnement de codage. Il est temps de vous lancer, et n'oubliez pas : happy coding! 😉🚀
 
 ## 📂Quelques dossiers importants
-- Dans le dossier ```common ``` vous trouverez les dossiers contenant le Javascript, le CSS/SCSS et les Fonts. 
-- Dans le dossier ```client ``` vous trouverez le code de l'interface client.
+- Dans le dossier ```common``` vous trouverez les dossiers contenant le JavaScript, le CSS/SCSS et les Fonts.
+- Dans le dossier ```client``` vous trouverez le code de l'interface client.
 - Dans le dossier ```dashboard``` vous trouverez le code de l'interface administrateur.
 
 ## 🤝 Contribuer
@@ -143,8 +144,7 @@ Nous sommes ouverts aux contributions ! Si vous souhaitez contribuer à ce proje
 
 5. Créez une Pull Request sur GitHub.
 
-Nous apprécions toutes les contributions !
-    
+Nous apprécions toutes les contributions !   
 
 ## 📄 Licence
 
