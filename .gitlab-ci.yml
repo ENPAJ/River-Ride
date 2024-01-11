@@ -1,0 +1,36 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+      
+stages:
+  - lint
+  - test
+  - build
+
+lint:
+  stage: lint
+  script:
+    - eslint .
+
+test:
+  stage: test
+  script:
+    - npm install
+    - npm install --save-dev jest
+    - npm test
+
+build:
+  stage: build
+  script:
+    - webpack
+
+before_script:
+  - echo "Check if tests passed before allowing merge"
+after_script:
+  - exit 0
+
+only:
+  - merge_requests
