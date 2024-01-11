@@ -144,11 +144,6 @@ Nous sommes ouverts aux contributions ! Si vous souhaitez contribuer à ce proje
 5. Créez une Pull Request sur GitHub.
 
 Nous apprécions toutes les contributions !
-
----
-
-N'hésitez pas à personnaliser ce fichier README en fonction des besoins spécifiques de votre projet.
-
     
 
 ## 📄 Licence
@@ -159,7 +154,7 @@ Ce projet est sous licence MIT - consultez le fichier LICENSE pour plus de déta
 
 Fournissez vos informations de contact au cas où les utilisateurs auraient des questions ou voudraient vous joindre.
 
-[https://github.com/ENPAJ/](https://github.com//ENPAJ/))
+[Mail](test@mail.fr)
 
 ## 🏷️ Tags
 
