@@ -1,4 +1,4 @@
-name: SonarCloud analysis
+name: HTML Syntax Check
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  sonarcloud:
+  html-syntax-check:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,16 +22,8 @@ jobs:
         with:
           node-version: '14'
 
-      - name: Install dependencies
-        run: npm install
+      - name: Install htmlhint
+        run: npm install -g htmlhint
 
-      - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        with:
-          projectKey: ''
-          organization: ''
-          exclusions: '**/*.java,**/*.ts,**/*.tsx,**/*.py,**/*.cs'
-          inclusions: '**/*.php,**/*.html,**/*.css,**/*.js,**/*.jsx,**/*.vue'
+      - name: HTML Syntax Check
+        run: htmlhint "**/*.html"
