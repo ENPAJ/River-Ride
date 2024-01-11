@@ -1,0 +1,63 @@
+name: Proof HTML
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  proof-html:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+
+      - name: Proof HTML
+        uses: anishathalye/proof-html@v2.1.2
+        with:
+          # The directory to scan
+          directory: .
+          # Check whether external anchors exist
+          check_external_hash: true # optional
+          # Validate HTML
+          check_html: true # optional
+          # Validate CSS
+          check_css: true # optional
+          # Check images and URLs in Open Graph metadata
+          check_opengraph: true # optional
+          # Check whether favicons are valid
+          check_favicon: true # optional
+          # Allow images with empty alt tags
+          ignore_empty_alt: true # optional
+          # Allow images with missing alt tags
+          ignore_missing_alt: true # optional
+          # Allow anchors with missing href tags
+          allow_missing_href: true # optional
+          # Require that links use HTTPS
+          enforce_https: true # optional
+          # JSON-encoded map of domains to authorization tokens
+          tokens: '{}' # optional
+          # JSON-encoded map of URL rewrite rules
+          swap_urls: '{}' # optional
+          # Maximum number of concurrent requests
+          max_concurrency: 10 # optional
+          # HTTP connection timeout
+          connect_timeout: 5000 # optional
+          # HTTP request timeout
+          timeout: 5000 # optional
+          # Newline-separated list of URLs to ignore
+          ignore_url: '' # optional
+          # Newline-separated list of URL regexes to ignore
+          ignore_url_re: '' # optional
+          # Number of times to retry checking links
+          retries: 3 # optional
