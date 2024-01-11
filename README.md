@@ -119,6 +119,11 @@ Félicitations ! Vous avez désormais un serveur Apache pleinement fonctionnel s
 ## 💻Environnement de Développement Intégré
 Il ne vous reste plus qu'à choisir l'IDE qui correspond le mieux à votre style de développement. Que vous optiez pour les fonctionnalités puissantes d'IDE populaires ou que vous préfériez quelque chose de plus léger, comme Geany - un excellent choix open source, il est essentiel que vous vous sentiez à l'aise et productif dans votre environnement de codage. Il est temps de vous lancer, et n'oubliez pas : happy coding! 😉🚀
 
+## 📂Quelques dossiers importants
+- Dans le dossier ```common ``` vous trouverez les dossiers contenant le Javascript, le CSS/SCSS et les Fonts. 
+- Dans le dossier ```client ``` vous trouverez le code de l'interface client.
+- Dans le dossier ```dashboard``` vous trouverez le code de l'interface administrateur.
+
 ## 🤝 Contribuer
 
 Nous sommes ouverts aux contributions ! Si vous souhaitez contribuer à ce projet, veuillez suivre ces étapes :
