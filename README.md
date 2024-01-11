@@ -20,12 +20,9 @@
 
 River Ride permet aux voyageurs de découvrir la Loire, de gérer leur itinéraire, de louer des équipements et des chambres d'hôtel.
 
-## 🚀 Fonctionnalités
+## 🚀 Documentation
 
-- Fonctionnalité 1 : Créer un compte sur le site web
-- Fonctionnalité 2 : Construire un itinéraire de voyage
-- Fonctionnalité 3 : Effectuer des réservations dans des hôtels
-- Fonctionnalité 4 : Acheter des services complémentaires
+Vous trouverez [ici](https://enpaj.github.io/River-Ride/) une documentation du projet River-Ride ! 
 
 ## ⚙️ Installation
 
@@ -112,8 +109,8 @@ Félicitations ! Vous avez désormais un serveur Apache pleinement fonctionnel s
 
 <!-- Ajoutez d'autres étapes d'installation si nécessaire -->
 
-## 🗃️Connection à la base de données 
-   C'est le fichier ```bd.php``` à la racine de River-Ride qui gère la connection à la base de données. 
+## 🗃️Connexion à la base de données 
+   C'est le fichier ```bd.php``` à la racine de River-Ride qui gère la connexion à la base de données. 
    N'oubliez pas de modifier les identifiants pour pouvoir vous connecter à votre base de données pour pouvoir effectuer vos tests et de les remettre à leurs valeurs initiales avant toute pull request.
 
 ## 💻Environnement de Développement Intégré
