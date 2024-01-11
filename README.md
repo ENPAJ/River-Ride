@@ -52,7 +52,7 @@ Pour utiliser ce projet, suivez ces étapes si vous souhaitez mettre en place un
    - Puis sur *Import* pour importer une base de données.
    - Sélectionez le fichier nommé *riverride.sql*. 
 
-Félicitations ! Vous avez maintenant un serveur MAMP opérationnel sur votre machine Windows, ainsi qu'une base de données fonctionnelle. Il est temps de donner vie à votre application ! N'hésitez pas à tester et explorer toutes les fonctionnalités. Bon codage ! 🚀
+Félicitations ! Vous avez maintenant un serveur MAMP opérationnel sur votre machine Windows, ainsi qu'une base de données fonctionnelle. Il est temps de donner vie à votre application ! N'hésitez pas à tester et explorer toutes les fonctionnalités.
 
 Voici les étapes à suivre pour un serveur Apache sur une machine Linux: 
 
@@ -108,7 +108,7 @@ Pour cloner un projet Git dans le répertoire `/var/www/html/` sur un serveur Ap
 
 Assurez-vous d'adapter les commandes avec les informations spécifiques à votre projet, comme l'URL du projet Git, le nom de la base de données, le nom d'utilisateur MySQL, et le chemin vers le fichier SQL. Après avoir suivi ces étapes, votre projet Git devrait être cloné dans `/var/www/html/` et la base de données associée devrait être importée.
 
-Félicitations ! Vous avez désormais un serveur Apache pleinement fonctionnel sur votre machine Linux, accompagné d'une base de données opérationnelle. Il est maintenant temps de donner vie à votre application ! N'hésitez pas à explorer toutes les fonctionnalités et à tester votre projet. Bon codage ! 🚀
+Félicitations ! Vous avez désormais un serveur Apache pleinement fonctionnel sur votre machine Linux, accompagné d'une base de données opérationnelle. Il est maintenant temps de donner vie à votre application ! N'hésitez pas à explorer toutes les fonctionnalités et à tester votre projet.
 
 <!-- Ajoutez d'autres étapes d'installation si nécessaire -->
 
@@ -116,6 +116,8 @@ Félicitations ! Vous avez désormais un serveur Apache pleinement fonctionnel s
    C'est le fichier ```bd.php``` à la racine de River-Ride qui gère la connection à la base de données. 
    N'oubliez pas de modifier les identifiants pour pouvoir vous connecter à votre base de données pour pouvoir effectuer vos tests et de les remettre à leurs valeurs initiales avant toute pull request.
 
+## 💻Environnement de Développement Intégré
+Il ne vous reste plus qu'à choisir l'IDE qui correspond le mieux à votre style de développement. Que vous optiez pour les fonctionnalités puissantes d'IDE populaires ou que vous préfériez quelque chose de plus léger, comme Geany - un excellent choix open source, il est essentiel que vous vous sentiez à l'aise et productif dans votre environnement de codage. Il est temps de vous lancer, et n'oubliez pas : happy coding! 😉🚀
 
 ## 🤝 Contribuer
 
