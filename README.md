@@ -1,7 +1,7 @@
 # 🚤 River Ride
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Workflow](https://github.com/ENPAJ/River-Ride/actions/workflows/sonarcloud.yml/badge.svg)
+![Workflow](https://github.com/ENPAJ/River-Ride/actions/workflows/super-linter.yml/badge.svg)
 [![GitHub Issues](https://img.shields.io/github/issues/ENPAJ/River-Ride.svg)](https://github.com/ENPAJ/River-Ride/issues)
 [![GitHub Forks](https://img.shields.io/github/forks/ENPAJ/River-Ride.svg)](https://github.com/ENPAJ/River-Ride/network)
 [![GitHub Stars](https://img.shields.io/github/stars/ENPAJ/River-Ride.svg)](https://github.com/ENPAJ/River-Ride/stargazers)
@@ -26,7 +26,7 @@ Vous trouverez [ici](https://enpaj.github.io/River-Ride/) une documentation du p
 
 ## ⚙️ Installation
 
-Pour utiliser ce projet, suivez ces étapes si vous souhaitez mettre en place un serveur MAMP sur Windows :
+Pour utiliser ce projet, suivez ces étapes si vous souhaitez mettre en place un serveur MAMP sur Windows/MacOS :
 
 1. **Téléchargement de MAMP :**
    - Téléchargez la version Windows de MAMP depuis le [site officiel](https://www.mamp.info/).
@@ -49,7 +49,7 @@ Pour utiliser ce projet, suivez ces étapes si vous souhaitez mettre en place un
    - Puis sur *Import* pour importer une base de données.
    - Sélectionez le fichier nommé *riverride.sql*. 
 
-Félicitations ! Vous avez maintenant un serveur MAMP opérationnel sur votre machine Windows, ainsi qu'une base de données fonctionnelle. Il est temps de donner vie à votre application ! N'hésitez pas à tester et explorer toutes les fonctionnalités.
+Félicitations ! Vous avez maintenant un serveur MAMP opérationnel sur votre machine Windows/MacOS, ainsi qu'une base de données fonctionnelle. Il est temps de donner vie à votre application ! N'hésitez pas à tester et explorer toutes les fonctionnalités.
 
 Voici les étapes à suivre pour un serveur Apache sur une machine Linux: 
 
