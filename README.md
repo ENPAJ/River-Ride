@@ -12,6 +12,10 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![VS Code](https://img.shields.io/badge/VS_Code-1.60-blue)](https://code.visualstudio.com/)
 [![Wamp](https://img.shields.io/badge/Wamp-3.2.5-red)](https://www.wampserver.com/en/)
+![OS](https://img.shields.io/badge/OS-Windows-green)
+![OS](https://img.shields.io/badge/OS-macOS-blue)
+![OS](https://img.shields.io/badge/OS-Linux-yellow)
+
 ## 🌄 Aperçu
 
 River Ride permet aux voyageurs de découvrir la Loire, de gérer leur itinéraire, de louer des équipements et des chambres d'hôtel.
