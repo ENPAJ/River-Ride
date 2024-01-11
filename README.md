@@ -1,20 +1,17 @@
 # 🚤 River Ride
-# 🚤 River Ride
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Workflow](https://github.com/ENPAJ/River-Ride/actions/workflows/sonarcloud.yml/badge.svg)
-![GitHub Issues](https://img.shields.io/github/issues/ENPAJ/River-Ride.svg)](https://github.com/ENPAJ/River-Ride/issues)
-![GitHub Forks](https://img.shields.io/github/forks/ENPAJ/River-Ride.svg)](https://github.com/ENPAJ/River-Ride/network)
-![GitHub Stars](https://img.shields.io/github/stars/ENPAJ/River-Ride.svg)](https://github.com/ENPAJ/River-Ride/stargazers)
-![PHP](https://img.shields.io/badge/PHP-7.4-blue)](https://www.php.net/)
-![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)](https://www.mysql.com/)
-![CSS](https://img.shields.io/badge/CSS-3-green)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-![HTML](https://img.shields.io/badge/HTML-5-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-![VS Code](https://img.shields.io/badge/VS_Code-1.60-blue)](https://code.visualstudio.com/)
-![Wamp](https://img.shields.io/badge/Wamp-3.2.5-red)](https://www.wampserver.com/en/)
-<!-- Ajoutez d'autres badges au besoin -->
-
+[![GitHub Issues](https://img.shields.io/github/issues/ENPAJ/River-Ride.svg)](https://github.com/ENPAJ/River-Ride/issues)
+[![GitHub Forks](https://img.shields.io/github/forks/ENPAJ/River-Ride.svg)](https://github.com/ENPAJ/River-Ride/network)
+[![GitHub Stars](https://img.shields.io/github/stars/ENPAJ/River-Ride.svg)](https://github.com/ENPAJ/River-Ride/stargazers)
+[![PHP](https://img.shields.io/badge/PHP-7.4-blue)](https://www.php.net/)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)](https://www.mysql.com/)
+[![CSS](https://img.shields.io/badge/CSS-3-green)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![HTML](https://img.shields.io/badge/HTML-5-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![VS Code](https://img.shields.io/badge/VS_Code-1.60-blue)](https://code.visualstudio.com/)
+[![Wamp](https://img.shields.io/badge/Wamp-3.2.5-red)](https://www.wampserver.com/en/)
 ## 🌄 Aperçu
 
 River Ride permet aux voyageurs de découvrir la Loire, de gérer leur itinéraire, de louer des équipements et des chambres d'hôtel.
