@@ -114,7 +114,7 @@ Félicitations ! Vous avez désormais un serveur Apache pleinement fonctionnel s
    N'oubliez pas de modifier les identifiants pour pouvoir vous connecter à votre base de données pour pouvoir effectuer vos tests et de les remettre à leurs valeurs initiales avant toute pull request.
 
 ## 💻Environnement de Développement Intégré
-Il ne vous reste plus qu'à choisir l'IDE qui correspond le mieux à votre style de développement. 
+Il ne vous reste plus qu'à choisir l'IDE qui correspond le mieux à votre style de développement.
 Que vous optiez pour les fonctionnalités puissantes d'IDE populaires ou que vous préfériez quelque chose de plus léger, comme Geany - un excellent choix open source, il est essentiel que vous vous sentiez à l'aise et productif dans votre environnement de codage. Il est temps de vous lancer, et n'oubliez pas : happy coding! 😉🚀
 
 ## 📂Quelques dossiers importants
@@ -144,7 +144,7 @@ Nous sommes ouverts aux contributions ! Si vous souhaitez contribuer à ce proje
 
 5. Créez une Pull Request sur GitHub.
 
-Nous apprécions toutes les contributions !   
+Nous apprécions toutes les contributions !
 
 ## 📄 Licence
 
