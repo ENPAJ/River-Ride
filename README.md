@@ -1,7 +1,7 @@
 # 🚤 River Ride
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Workflow](https://github.com/ENPAJ/River-Ride/actions/workflows/proof_html.yml/badge.svg)
+![Workflow](https://github.com/ENPAJ/River-Ride/actions/workflows/super-linter.yml/badge.svg)
 [![GitHub Issues](https://img.shields.io/github/issues/ENPAJ/River-Ride.svg)](https://github.com/ENPAJ/River-Ride/issues)
 [![GitHub Forks](https://img.shields.io/github/forks/ENPAJ/River-Ride.svg)](https://github.com/ENPAJ/River-Ride/network)
 [![GitHub Stars](https://img.shields.io/github/stars/ENPAJ/River-Ride.svg)](https://github.com/ENPAJ/River-Ride/stargazers)
