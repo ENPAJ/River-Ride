@@ -139,7 +139,7 @@ Nous apprécions toutes les contributions !
 N'hésitez pas à personnaliser ce fichier README en fonction des besoins spécifiques de votre projet.
  
 
-## :dividers  Connection à la base de données 
+## 🗃️Connection à la base de données 
    C'est le fichier ```bd.php``` à la racine de River-Ride qui gère la connection à la base de données. 
    N'oubliez pas de modifier les identifiants pour pouvoir vous connecter à votre base de données pour pouvoir effectuer vos tests et de les remettre à leurs valeurs initiales avant toute pull request.
 
