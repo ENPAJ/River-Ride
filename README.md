@@ -29,7 +29,7 @@ Vous trouverez [ici](https://enpaj.github.io/River-Ride/) une documentation du p
 Pour utiliser ce projet, suivez ces étapes si vous souhaitez mettre en place un serveur MAMP sur Windows :
 
 1. **Téléchargement de MAMP :**
-   - Téléchargez la version Windows de MAMP depuis le site officiel (https://www.mamp.info/).
+   - Téléchargez la version Windows de MAMP depuis le [site officiel](https://www.mamp.info/).
 
 2. **Lancement de MAMP :**
    - Recherchez et lancez l'application MAMP.
